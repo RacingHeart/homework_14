@@ -159,3 +159,4 @@ def test_mixin_log_output_on_product_creation(capsys):
     assert "Товар" in captured.out
     assert "1500" in captured.out
     assert "3" in captured.out
+
